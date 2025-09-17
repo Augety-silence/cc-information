@@ -21,14 +21,18 @@
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
 ## 文件命名
 
-1.总文件夹：cc_information
-2.excel文档：cc_collection.xlsx
+1.总文件夹：`cc_information`
+2.excel文档：`cc_collection.xlsx`
 
 ## 扩展安装
+
+```bash
 pip3 install -r requirements.txt
+```
 
 ## 使用方法
-将文件夹拖入vscode后，安装扩展即可运行./cc_information/new_process.py 使用
+将文件夹拖入`vscode`后，安装扩展即可运行`new_process.py`使用
